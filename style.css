@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lora:ital@0;1&family=Mulish:wght@200&display=swap');
+
+body {
+  background-image: url(./sushihome.jpeg);
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 1290px 1440px;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+
+p {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.home {
+  margin-top: 215px;
+  margin-left: 100px;
+}
+
+
+.menu {
+  margin-left: 550px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.cart {
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+@media (max-width: 990px) {
+  body {
+   background-position: cover;
+   background-attachment: right;
+   background-size:  1500px 1700px;
+   background-repeat: no-repeat;
+  }
+
+  .home {
+    margin-top: 215px;
+    margin-left: 10px;
+  }
+  
+  
+  .menu {
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px
+  }
+  
+  .cart {
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-right: 10px;
+  }
+  
+h1 {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+
+p {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  color: white;
+}
+}
+
+
+@media (min-width: 950px) {
+  body {
+   background-position: cover;
+   background-attachment: fixed;
+   background-size:  1440px 1300px;
+   background-repeat: no-repeat;
+  }
+
+  .home {
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+  
+  
+  .menu {
+    margin-left: 500px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  
+  .cart {
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-right: 200px;
+  }
+  
+h1 {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+
+p {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  color: white;
+}
+} 

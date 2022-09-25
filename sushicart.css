@@ -1,0 +1,33 @@
+body {
+  background-image: url(./CART.png);
+  background-position: cover;
+  background-attachment: fixed;
+  background-size: 1250px 650px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-position: cover;
+   background-attachment: fixed;
+   background-size: 750px 1100px;
+   background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    background-position: cover;
+   background-attachment: fixed;
+   background-size: 400px 675px;
+   background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 950px) {
+  body {
+    background-position: cover;
+   background-attachment: fixed;
+   background-size: 1250px 650px;
+   background-repeat: no-repeat;
+  }
+}
